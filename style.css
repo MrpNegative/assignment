@@ -1,132 +1,128 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    background-color: rgb(255, 255, 255);
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
 }
-.parent{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin: 0 auto;
+.parent {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-h2{
-    font-size: 30px;
-    font-weight: bolder;
+h2 {
+  font-size: 30px;
+  font-weight: bolder;
 }
-#main-head1{
-    margin-bottom: 0%;
-    margin-top: 100px;
-    font-family: 'Prompt', sans-serif;
+#main-head1 {
+  margin-bottom: 0%;
+  margin-top: 100px;
+  font-family: "Prompt", sans-serif;
 }
-#main-head2{
-    margin-top: 5px;
-    color: red;
+#main-head2 {
+  margin-top: 5px;
+  color: red;
 }
-#red-line{
-    padding-left: 10px;
-    border-left: 4px solid red;
+#red-line {
+  padding-left: 10px;
+  border-left: 4px solid red;
 }
-#top-img img{
-    width: 600px;
-    margin: 0 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-
+#top-img img {
+  width: 600px;
+  margin: 0 20px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
-.button-des{
-    padding: 10px 40px;
-    background-image: linear-gradient(red, rgb(194, 59, 59));
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
+.button-des {
+  padding: 10px 40px;
+  background-image: linear-gradient(red, rgb(194, 59, 59));
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
 }
 
 /* span  */
-span{
-    color: red;
+span {
+  color: red;
 }
-
 
 /* Servises */
 
-.all-middle-head{
-    text-align: center;
-    font-size: 40px;
+.all-middle-head {
+  text-align: center;
+  font-size: 40px;
 }
-.icon-img{
-    width: 120px;
+.icon-img {
+  width: 120px;
 }
-.box-style{
-    box-shadow: 20px 20px 1px rgb(216, 214, 214);
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 1700px;
+.box-style {
+  box-shadow: 20px 20px 1px rgb(216, 214, 214);
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 1700px;
 }
-#box-color1{
-    background-color: #EDF5F6;
+#box-color1 {
+  background-color: #edf5f6;
 }
-#box-color2{
-    background-color: #FFEEEE;
+#box-color2 {
+  background-color: #ffeeee;
 }
-#box-color3{
-    background-color:#FFF4D6;
+#box-color3 {
+  background-color: #fff4d6;
 }
 
 /* center part  */
-.center-img{
-    width: 400px;
+.center-img {
+  width: 400px;
 }
-#middle-part-imfo{
-    margin-left: 60px;
-    margin-top: 6%;
+#middle-part-imfo {
+  margin-left: 60px;
+  margin-top: 6%;
 }
-#middle-part-imfo2{
-    margin-right: 80px;
-    margin-top: 6%;
+#middle-part-imfo2 {
+  margin-right: 80px;
+  margin-top: 6%;
 }
-.center-sec{
-    margin-top: 7%;
+.center-sec {
+  margin-top: 7%;
 }
-
 
 /* Clients reviws  */
-.testi-style{
-    box-shadow: 10px 10px 40px rgb(85, 83, 83);
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: 3%;
-    margin-right: 3%;
-    color: black;
-    width: 1700px;
+.testi-style {
+  box-shadow: 10px 10px 40px rgb(85, 83, 83);
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: black;
+  width: 1700px;
 }
-.testi-style img{
-    width: 150px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px rgb(85, 83, 83);
+.testi-style img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px rgb(85, 83, 83);
 }
-#client-sec{
-    margin-bottom: 5%;
-    margin-top: 3%;
+#client-sec {
+  margin-bottom: 5%;
+  margin-top: 3%;
 }
-
 
 /* Footer  */
-footer{
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding-bottom: 20px;
+footer {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
 }
-footer h2{
-    margin-bottom: 0;
-    padding-top: 20px;
+footer h2 {
+  margin-bottom: 0;
+  padding-top: 20px;
 }
-footer p{
-    color: rgb(150, 143, 143);
+footer p {
+  color: rgb(150, 143, 143);
 }
