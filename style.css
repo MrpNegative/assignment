@@ -1,6 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: black;
+    color: white;
 }
 .all-section{
     display: flex;
@@ -55,11 +57,12 @@ h2{
     width: 120px;
 }
 .box-style{
-    box-shadow: 10px 10px 50px rgb(19, 19, 19);
+    box-shadow: 20px 20px 1px rgb(216, 214, 214);
     padding: 20px;
     border-radius: 10px;
     margin-left: 3%;
     margin-right: 3%;
+    color: black;
 }
 .box-color1{
     background-color: #EDF5F6;
@@ -92,8 +95,8 @@ h2{
 /* Footer  */
 footer{
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(213, 211, 230);
+    color: rgb(0, 0, 0);
     padding-bottom: 20px;
 }
 footer h2{
@@ -104,5 +107,5 @@ footer span{
     color: red;
 }
 footer p{
-    color: gray;
+    color: rgb(80, 80, 80);
 }
