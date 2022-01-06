@@ -1,10 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
 }
-.all-section{
+.parent{
     display: flex;
     justify-content: space-around;
     width: 80%;
@@ -17,22 +16,25 @@ h2{
     font-size: 30px;
     font-weight: bolder;
 }
-.main-head1{
+#main-head1{
     margin-bottom: 0%;
     margin-top: 100px;
     font-family: 'Prompt', sans-serif;
 }
-.main-head2{
+#main-head2{
     margin-top: 5px;
     color: red;
 }
-.heading-style{
+#red-line{
     padding-left: 10px;
     border-left: 4px solid red;
 }
-.image-style img{
-    width: 400px;
+#top-img img{
+    width: 600px;
     margin: 0 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
 }
 .button-des{
     padding: 10px 40px;
@@ -43,17 +45,19 @@ h2{
     border-radius: 5px;
 }
 
-/* Mission 2022 */
-
-.mission-head{
-    text-align: center;
-    font-size: 40px;
-}
-#mission-2022{
+/* span  */
+span{
     color: red;
 }
 
-.small-img{
+
+/* Servises */
+
+.all-middle-head{
+    text-align: center;
+    font-size: 40px;
+}
+.icon-img{
     width: 120px;
 }
 .box-style{
@@ -62,15 +66,15 @@ h2{
     border-radius: 10px;
     margin-left: 3%;
     margin-right: 3%;
-    color: black;
+    width: 1700px;
 }
-.box-color1{
+#box-color1{
     background-color: #EDF5F6;
 }
-.box-color2{
+#box-color2{
     background-color: #FFEEEE;
 }
-.box-color3{
+#box-color3{
     background-color:#FFF4D6;
 }
 
@@ -78,34 +82,51 @@ h2{
 .center-img{
     width: 400px;
 }
-.middle-part-imfo{
+#middle-part-imfo{
     margin-left: 60px;
     margin-top: 6%;
 }
-.middle-part-imfo2{
+#middle-part-imfo2{
     margin-right: 80px;
     margin-top: 6%;
 }
 .center-sec{
     margin-top: 7%;
+}
 
+
+/* Clients reviws  */
+.testi-style{
+    box-shadow: 10px 10px 40px rgb(85, 83, 83);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: black;
+    width: 1700px;
+}
+.testi-style img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgb(85, 83, 83);
+}
+#client-sec{
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 
 
 /* Footer  */
 footer{
     text-align: center;
-    background-color: rgb(213, 211, 230);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-bottom: 20px;
 }
 footer h2{
     margin-bottom: 0;
     padding-top: 20px;
 }
-footer span{
-    color: red;
-}
 footer p{
-    color: rgb(80, 80, 80);
+    color: rgb(150, 143, 143);
 }
